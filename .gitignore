@@ -1,0 +1,24 @@
+# Environment files with live secrets
+.env
+.env.*
+!.env.template
+!.env.example
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_dsa
+id_ed25519
+id_ecdsa
+
+# Cloud / app credential files
+credentials.json
+*-credentials.json
+service-account*.json
+client_secret*.json
+.aws/
+.azure/
+.gcloud/
